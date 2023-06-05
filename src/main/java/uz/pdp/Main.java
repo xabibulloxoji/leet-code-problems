@@ -1,7 +1,5 @@
 package uz.pdp;
 
-import uz.pdp.p2.Test;
-
 import java.util.*;
 
 public class Main {
@@ -9,113 +7,18 @@ public class Main {
     private static final Random rnd = new Random();
 
 
-    public static void main(String[] args) throws Exception {
-
-        Test test = new Test();
+    public static void main(String[] args){
 
 
+        System.out.println(strStr("uzbekiston", "bek"));
 
 
-//        int[] nums1 = {1, 4, 5, 0, 0, 0};
-//        int[] nums2 = {2, 3, 6};
-//        merge(nums1, 3, nums2, 3);
+    }
 
 
-//
 
-//        System.out.println(addTwoNumbers(l1, l2));
-
-//        int target = 12;
-//        twoSum(nums, target);
-
-        // IS PALINDROME
-//        int x = 12;
-//        isPalindrome(x);
-
-
-        // ROMAN TO INTEGER
-//        String s = "XXIX";
-//        System.out.println(romanToInt(s));
-
-//        isPowerOfTwo(6);
-
-//        int a = 123;
-
-//        reverse(a);
-
-//
-//        System.out.println(searchInsert(nums, target));
-
-
-//        int arr[] = {12, 11, 13, 5, 6, 7};
-//
-//        System.out.println("Given Array");
-//        printArray(arr);
-//
-//        sort(arr, 0, arr.length - 1);
-//
-//        System.out.println("\nSorted array");
-//        printArray(arr);
-
-//        List<Integer> numList = new ArrayList<>(Arrays.asList(73, 67, 38, 33));
-//
-//        int n = 10;
-//
-//        System.out.println(countPrimes(n));
-
-//        System.out.println(Arrays.toString(sortColors1(nums)));
-
-//        System.out.println(isHappy(target));
-//            String s = "car";
-//            String t = "ewq";
-
-//        System.out.println(isAnagram(s, t));
-
-
-//        System.out.println(search1(nums, target));
-
-
-//        System.out.println(search2(nums, target));
-
-//        System.out.println(maxProfit(nums));
-
-//        char[] s = {'h', 'e', 'l', 'l', 'o'};
-//        String e = "A man, a plan, a canal: Panama";
-//        String a = "a. ";
-
-//        String a = "Hello";
-//        String b = "Hello";
-//        String c = new String("Hello");
-//
-//        System.out.println(a == b);
-//        System.out.println(a == c);
-//        System.out.println(a.equals(b));
-//        System.out.println(a.equals(c));
-//        System.out.println(a.hashCode());
-//        System.out.println(c.hashCode());
-//
-//        Student student = new Student("hello", 10);
-//        Student student1 = new Student("hello", 10);
-
-//        System.out.println(student1.hashCode());
-//        System.out.println(student.hashCode());
-//        System.out.println(reverseString(s));
-//
-//        System.out.println(rob(nums));
-//
-//        System.out.println(rotateString(e, a));
-//        System.out.println(isPalindrome(e));
-
-//        int[] s1 = {1, 2, 2, 1};
-//        int[] s2 = {2, 2};
-//
-//        System.out.println(intersection(s1, s2));
-
-
-//        System.out.println(canBeIncreasing(nums));
-//        String s = "Hello world ";
-//        System.out.println(lengthOfLastWord(s));
-
+    public static int strStr(String haystack, String needle) {
+        return haystack.indexOf(needle);
     }
 
 
